@@ -1,0 +1,8 @@
+#!/bin/bash
+pkg install ruby
+gem install lolcat
+git clone https://github.com/Yamad0/Y63
+cd Y63
+cp Yinfinite /../../
+cd ../../
+sh ./Yinfinite
